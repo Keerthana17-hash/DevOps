@@ -44,7 +44,7 @@ jobs:
       - name: Prepare site assets
         run: |
           mkdir -p site
-          cp shiva.html site/
+          cp welcome.html site/
           touch site/.nojekyll
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
